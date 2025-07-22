@@ -115,6 +115,7 @@ header .right {
 header {
 	padding: 20px 0;
 	height: 80px;
+    background-color: #b0c4b1;
 }
 header ul {
 	list-style: none;
@@ -152,6 +153,8 @@ aside p {
 footer {
 	padding: 5px 15px;
 	height: 80px;
+    margin: 0px;
+    background-color: #b0c4b1;
 }
 
 
@@ -203,7 +206,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: auto;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
 }
 
 
@@ -216,13 +219,13 @@ main{
 article{
     flex: 2;
     overflow-y: auto;
-    background-color: whitesmoke;
+    background-color: antiquewhite;
 }
 
 aside{
     flex: 1;
     overflow-y: auto;
-    background-color: #dedbd2; 
+    background-color: #ddd; 
     font-size: xx-large;
 }
 
