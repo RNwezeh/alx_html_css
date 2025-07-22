@@ -203,6 +203,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: auto;
+    background-color: antiquewhite;
 }
 
 
@@ -215,11 +216,14 @@ main{
 article{
     flex: 2;
     overflow-y: auto;
+    background-color: whitesmoke;
 }
 
 aside{
     flex: 1;
-    overflow-y: auto; 
+    overflow-y: auto;
+    background-color: #dedbd2; 
+    font-size: xx-large;
 }
 
 .logo{
