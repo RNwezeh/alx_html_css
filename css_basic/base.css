@@ -116,6 +116,8 @@ header {
 	padding: 20px 0;
 	height: 80px;
     background-color: #b0c4b1;
+    width: 100vw;
+    margin: 0px;
 }
 header ul {
 	list-style: none;
@@ -206,7 +208,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: auto;
-    background-color: whitesmoke;
+    background-color: antiquewhite;
 }
 
 
@@ -227,9 +229,24 @@ aside{
     overflow-y: auto;
     background-color: #ddd; 
     font-size: xx-large;
+    
 }
 
 .logo{
     font-size: larger;
     margin-right: 20px;
+}
+
+p{
+    line-height: 1.5;
+}
+
+.works_on_smartphone{
+    flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
