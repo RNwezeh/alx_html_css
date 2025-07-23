@@ -116,8 +116,6 @@ header {
 	padding: 20px 0;
 	height: 80px;
     background-color: #b0c4b1;
-    width: 100vw;
-    margin: 0px;
 }
 header ul {
 	list-style: none;
@@ -208,7 +206,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: auto;
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 
