@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article{
+    flex: 2;
+    overflow-y: auto;
+    background-color: antiquewhite;
+}
+
+aside{
+    flex: 1;
+    overflow-y: auto;
+    background-color: #ddd; 
+    font-size: xx-large;
+    
+}
+
+.logo{
+    font-size: larger;
+    margin-right: 20px;
+}
+
+p{
+    line-height: 1.5;
+}
+
+.works_on_smartphone{
+    flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
