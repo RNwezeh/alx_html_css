@@ -6,7 +6,7 @@ body{
 .imageheader{
     background-image: url(asset/image.png);
     width: auto;
-    height: 1500px;
+    height: 1600px;
     border: 16px;
     padding: 16px 8px;
 }
@@ -36,7 +36,7 @@ p{
 }
 .box1 button{
     display: block;
-    margin-top: 80px;
+    margin-top: 250px;
     color: white;
     background-color: #C271FF;
     border-radius: 10px;
@@ -56,16 +56,26 @@ li a {
   text-decoration: none;
 }
 .container1{
-    margin-top: -1200px;
-    margin-left: 25%;
+    margin-top: -1310px;
+    margin-left: 550px;
 }
-.box1 p{
-    margin-right: 100px;
+.bold{
     color: white;
-    margin-left: 200px;
     font-size: xx-large;
-    font-weight: 100px;
+    margin-bottom: 0.5rem;
+    padding: 0px;
 }
+
+.para{
+    color: white;
+    padding-left: 50px;
+    display: flex;
+    float: left;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: xx-large;
+}
+
 .box1 h1{
     margin-bottom: 100px;
     margin-left: 180px;
@@ -96,6 +106,7 @@ li a {
     height: 100px;
     width: auto;
     padding: 0.5rem;
+    margin-bottom: 50px;
     
 }
 .box2 div{
@@ -103,6 +114,7 @@ li a {
     margin-left: 1px;
     padding: 0.5rem;
     margin-bottom: 2rem;
+    margin-top: 20px;
     
 }
 .box21 h3{
@@ -160,6 +172,20 @@ li a {
 .rate{
     display: flex;
 }
+.rate h3{
+    color: #C271FF;
+}
+.rate a{
+    border: 10px;
+    padding-right: 5px;
+}
+.smiles{
+    padding: 15px;
+    word-wrap: break-word;
+}
+.two img{
+    height: 150px;
+}
 .container4{
     margin-top: 600px;
     background-color: #071629;
@@ -207,7 +233,6 @@ li a {
 
 .item-block p{
     display: block;
-    word-wrap: break-word;
     white-space: normal;
     padding: 1rem;
 }
@@ -235,4 +260,21 @@ li a {
     position: relative;
     margin-top: 250px;
     margin-left: 900px;
+    font-family: sourc;
+}
+@media (max-width: 800px) {
+  body.works_on_smartphone {
+  	display: block;
+  }
+}
+@media (max-width: 768px) {
+  body.works_on_smartphone {
+  	display: block;
+  }
+}
+  body.works_on_smartphone main {
+  	display: block;
+  }
+.works_on_smartphone{
+    flex-direction: column;
 }
