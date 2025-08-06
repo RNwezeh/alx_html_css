@@ -1,3 +1,21 @@
+.navigate{
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 250px;
+    overflow: hidden;
+    float: inline-end;
+    float: right;
+    display: flex;
+    text-align: center;
+}
+
+li a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+
 @import "variables";
 
 @font-face {

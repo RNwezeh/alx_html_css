@@ -103,9 +103,9 @@ a:visited{
     color: #FF6565;
     opacity: 0.9;
 }
-.whatwedo{
+#whatwedo{
     background-color: white;
-    margin-left: 200px;
+    margin-left: 500px;
     margin-top: 1200px;
 }
 .three{
@@ -116,6 +116,7 @@ a:visited{
 }
 .four{
     display: flex;
+    margin-left: 300px
 }
 
 @import "variables";
@@ -188,11 +189,15 @@ a:visited{
   margin-right: 8px;
   }
 }
-.Ourresults{
+#Ourresults{
     background-color: #333;
-    height: 250px;
+    height: 400px;
     color: white;
+}
 
+.three h3{
+    padding: 20px;
+    margin-top: 30px;
 }
 img{
     display: block;
@@ -240,11 +245,12 @@ img{
 
 .overlaytext {
   position: absolute;
-  margin-top: -50px;
-  bottom: 10px;
-  left: 50%;
+  margin-top: -20px;
+  bottom: 50px;
+  left: 29%;
   transform: translateX(-50%);
-  font-size: x-larger;
+  font-size: xx-larger;
+  font-weight: bold;
   color: white;
   padding: 6px 12px;
   font-size: 16px;
@@ -254,13 +260,74 @@ img{
 .overlaytext1 {
   position: absolute;
   margin-top: -50px;
-  bottom: 10px;
-  left: 50%;
+  bottom: 5px;
+  left: 35%;
   transform: translateX(-50%);
   font-size: x-larger;
   color: white;
-  padding: 6px 12px;
+  padding: 4px 8px;
   font-size: 16px;
   border-radius: 4px;
   text-align: center;
+}
+#contact {
+    justify-content: center;
+
+}
+.form {
+      width: 300px;
+      margin: 50px auto; /* top-bottom: 50px, left-right: auto */
+      padding: 20px;
+      border-radius: 10px;
+}
+    label, input {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+}
+.form h2 {
+    justify-content: center;
+    margin-left: 100px;
+}
+label{
+    font-weight: bold;
+}
+.btn{
+    margin-left: 80px;
+    margin-bottom: 50%;
+    border: #FF6565;
+
+}
+.footer {
+  background-color: #0a0f23;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer .socials {
+  margin-top: 10px;
+}
+
+.footer .socials a {
+  color: white;
+  margin: 0 10px;
+  font-size: 20px;
+}
+.footer p{
+    color: white;
+    text-decoration: none;
+}
+footer a {
+    color: #555;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  footer a:hover {
+    color: #1877f2; /* blue for Facebook or default hover color */
+  }
+html {
+  scroll-behavior: smooth;
 }
