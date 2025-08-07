@@ -1,25 +1,22 @@
-body {
-  padding: 0;
-  margin: 0;
-  font-family: sans-serif;
-  font-size: 1em;
-  line-height: 1.5;
-  color: #555;
-  background: #fff;
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #555;
+    background: #fff;
 }
-h1 {
-  font-size: 1.5em;
-  font-weight: normal;
-}
-small {
-  font-size: .66666667em;
-}
-a {
-  color: #e74c3c;
-  text-decoration: none;
-}
-a:hover, a:focus {
-  box-shadow: 0 1px #e74c3c;
+
+.imageheader{
+    background-image: url(images/asset/headphones_hero_1.jpg);
+    width: auto;
+    height: 700px;
+    margin-bottom: 5px;
+    display: block;
+    top: 0;
+    left: 0;
+
 }
 .navigate{
     list-style-type: none;
@@ -38,8 +35,96 @@ li a{
     color: white;
     font-size: x-large;
 }
-img{
+.hero{
+     margin-top: -400px;
+     color: white;
+     position: block;
+}
+
+.one{
+    margin-left: 200px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.one p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+button{
+    background-color: #FF6565;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 10px;
+    font-weight: bold;
+}
+.two{
+    text-align: center;
+    margin-left: 200px;
+}
+
+@media (min-width: 1200px) {
+  body.works_on_smartphone {
+  	display: block;
+  }
+  body.works_on_smartphone main {
+  	display: block;
+  }
+  header .right {
+  	float: none;
+  }
+}
+
+@media (min-width: 920px) {
+  body.works_on_smartphone {
+  	display: block;
+  }
+  body.works_on_smartphone main {
+  	display: block;
+  }
+  header .right {
+  	float: none;
+  }
+}
+@media (min-width: 480px) {
+  body.works_on_smartphone {
+  	display: block;
+  }
+  body.works_on_smartphone main {
+  	display: block;
+  }
+  header .right {
+  	float: none;
+  }
+}
+a:hover{
+    color: #FF6565;
+    opacity: 0.9;
+}
+
+a:visited{
+    color: #FF6565;
+    opacity: 0.9;
+}
+#whatwedo{
+    background-color: white;
+    margin-left: 500px;
+    margin-top: 1200px;
+}
+.three{
+    text-align: center;
+    padding: 10px;
+    border: 50px;
+    margin-top: 150px;
+}
+.four{
+    display: flex;
+    margin-left: 300px
+}
+.four p{
     display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
 }
 
 @import "variables";
@@ -104,57 +189,123 @@ img{
   &:before {
     content: "\e910";
     font-family: 'HolbertonIcons';
-  font-style: normal;
-  font-weight: normal;
-  display: inline-block;
-  font-size: 24px;
-  color: #333;
-  margin-right: 8px;
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+     font-size: 24px;
+     color: #333;
+     margin-right: 8px;
   }
+}
+#Ourresults{
+    background-color: #333;
+    height: 500px;
+    color: white;
 }
 
-@media (min-width: 1200px) {
-  body.works_on_smartphone {
-  	display: block;
-  }
-  body.works_on_smartphone main {
-  	display: block;
-  }
-  header .right {
-  	float: none;
-  }
+.three h3{
+    padding: 20px;
+    margin-top: 30px;
+}
+img{
+    display: block;
+}
+.five{
+    background-color: #333;
+}
+.six{
+    justify-content: center;
+    margin-left: 150px;
+    align-items: center;
+    text-align: center;
+    border: 50px;
+}
+.six h3{
+    text-align: center;
+    font-size: larger;
+    margin-top: 100px;
+    padding: 40px;
+}
+.seven{
+    background-color: #333;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.seven {
+  display: flex;
+  justify-content: center; /* or space-between */
+  gap: 20px; 
+  flex-wrap: wrap;
 }
 
-@media (min-width: 920px) {
-  body.works_on_smartphone {
-  	display: block;
-  }
-  body.works_on_smartphone main {
-  	display: block;
-  }
-  header .right {
-  	float: none;
-  }
-}
-@media (min-width: 480px) {
-  body.works_on_smartphone {
-  	display: block;
-  }
-  body.works_on_smartphone main {
-  	display: block;
-  }
-  header .right {
-  	float: none;
-  }
-}
-a:hover{
-    color: #FF6565;
-    opacity: 0.9;
+.overlay {
+  position: relative;
+  width: 200px; /* set your desired image width */
+  height: 150px
 }
 
-a:visited{
-    color: #FF6565;
-    opacity: 0.9;
+.overlay img {
+  object-fit: cover;
+  display: block;
+}
+
+.overlaytext {
+  position: absolute;
+  margin-top: -20px;
+  bottom: 50px;
+  left: 29%;
+  transform: translateX(-50%);
+  font-size: xx-larger;
+  font-weight: bold;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  text-align: center;
+}
+.overlaytext1 {
+  position: absolute;
+  margin-top: -50px;
+  bottom: 5px;
+  left: 35%;
+  transform: translateX(-50%);
+  font-size: x-larger;
+  color: white;
+  padding: 4px 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  text-align: center;
+}
+#contact {
+    justify-content: center;
+
+}
+.form {
+      width: 300px;
+      margin: 50px auto; /* top-bottom: 50px, left-right: auto */
+      padding: 20px;
+      border-radius: 10px;
+}
+    label, input {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+}
+.form h2 {
+    justify-content: center;
+    margin-left: 100px;
+}
+label{
+    font-weight: bold;
+}
+.btn{
+    margin-left: 80px;
+    margin-bottom: 50%;
+    border: #FF6565;
+
 }
 .footer {
   background-color: #0a0f23;
@@ -176,16 +327,43 @@ a:visited{
     color: white;
     text-decoration: none;
 }
+footer a {
+    color: #555;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
 
-.holberton_school-icon-ic_facebook {
-  &:before {
-  content: "\e908"; /* Unicode for the sound icon */
-  font-family: 'HolbertonIcons';
-  font-style: normal;
-  font-weight: normal;
-  display: inline-block;
-  font-size: 24px;
-  color: #333;
-  margin-right: 8px;
+  footer a:hover {
+    color: #1877f2; /* blue for Facebook or default hover color */
+  }
+html {
+  scroll-behavior: smooth;
 }
+#whatwedo{
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+@keyframes fadeInUp{
+  t0{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+#Ourresults{
+  animation: bounceIn 1s ease-in-out;
+}
+@keyframes bounceIn {
+  0%{
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  60%{
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100%{
+    transform: scale(1.2);
+  }
 }
