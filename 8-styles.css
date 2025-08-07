@@ -7,7 +7,7 @@ body{
     color: #555;
     background: #fff;
 }
-
+ /* Header styling */
 .imageheader{
     background-image: url(images/asset/headphones_hero_1.jpg);
     width: auto;
@@ -18,6 +18,7 @@ body{
     left: 0;
 
 }
+/* navigation styling */
 .navigate{
     list-style-type: none;
     text-decoration: none;
@@ -35,6 +36,7 @@ li a{
     color: white;
     font-size: x-large;
 }
+/* Hero styling */
 .hero{
      margin-top: -400px;
      color: white;
@@ -105,6 +107,7 @@ a:visited{
     color: #FF6565;
     opacity: 0.9;
 }
+/* what we do styling */
 #whatwedo{
     background-color: white;
     margin-left: 500px;
@@ -163,7 +166,7 @@ a:visited{
 
 .holberton_school-icon-ic_music {
   &:before {
-  content: "\e90d"; /* Unicode for the sound icon */
+  content: "\e90d"; /* Unicode for the music icon */
   font-family: 'HolbertonIcons';
   font-style: normal;
   font-weight: normal;
@@ -175,7 +178,7 @@ a:visited{
 }
 .holberton_school-icon-ic_hearing {
   &:before {
-    content: "\e909"; /* Unicode for the sound icon */
+    content: "\e909"; /* Unicode for the hearing icon */
     font-family: 'HolbertonIcons';
     font-style: normal;
     font-weight: normal;
@@ -197,6 +200,8 @@ a:visited{
      margin-right: 8px;
   }
 }
+
+/* Our result styling */
 #Ourresults{
     background-color: #333;
     height: 500px;
@@ -279,6 +284,8 @@ img{
   border-radius: 4px;
   text-align: center;
 }
+
+/* contact section styling */
 #contact {
     justify-content: center;
 
@@ -307,6 +314,7 @@ label{
     border: #FF6565;
 
 }
+/* Footer styling */
 .footer {
   background-color: #0a0f23;
   color: white;
@@ -351,6 +359,8 @@ html {
     transform: translateY(0);
   }
 }
+
+/* Animation application */
 #Ourresults{
   animation: bounceIn 1s ease-in-out;
 }
@@ -367,16 +377,22 @@ html {
     transform: scale(1.2);
   }
 }
+
+/* Hamburger styling */
 .hamburger {
   display: none;
   font-size: 2rem;
   cursor: pointer;
 }
+.menuwrapper {
+  position: relative;
+}
+
 @media (max-width: 480px) {
   .navigate {
     display: none;
     flex-direction: column;
-    background-color: #0d6efd;
+    background-color: #333;
     position: absolute;
     top: 100%;
     right: 0;
@@ -391,6 +407,10 @@ html {
     cursor: pointer;
   }
   .navigate.active{
+    display: flex;
+  }
+
+  .menuwrapper:hover .navigate {
     display: flex;
   }
   }
