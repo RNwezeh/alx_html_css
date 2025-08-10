@@ -87,6 +87,18 @@ button{
   	float: none;
   }
 }
+
+@media (min-width: 768px) {
+  body.works_on_smartphone {
+  	display: block;
+  }
+  body.works_on_smartphone main {
+  	display: block;
+  }
+  header .right {
+  	float: none;
+  }
+}
 @media (min-width: 480px) {
   body.works_on_smartphone {
   	display: block;
